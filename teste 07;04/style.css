@@ -1,0 +1,48 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400&display=swap');
+
+* {
+    padding: 10px;
+}
+.main {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+img {
+    border-radius: 40px;
+}
+body {
+    background-color: rgb(77, 77, 223);
+}
+
+h1 {
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    color: white;  
+}
+button {
+    width: 90px;
+    border-radius: 10px;
+    font-family: 'Work Sans', sans-serif;
+}
+.botao {
+    margin: auto;
+    width: 90px;
+}
+.lula {
+    background-color: rgb(153, 9, 9);
+}
+.bolso {
+    background-color: rgb(3, 170, 3);
+}
+.lula:hover{
+    background-color: red;
+    width: 100px;
+    color: white;
+} 
+.bolso:hover {
+    background-color: rgb(54, 255, 4);
+    width: 100px;
+    color: white;
+}
